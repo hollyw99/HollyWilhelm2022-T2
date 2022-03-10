@@ -1,17 +1,26 @@
 @import url(normalize.css);
 
-
+/* -------------------- GLOBAL DEFAULTS */
 body{
     background-color: red;
    font-family: Arial, Helvetica, sans-serif; 
 }
+
+
 /* -------------------- VARIABLES */
 
-/* -------------------- GLOBAL DEFAULTS */
+
 
 /* -------------------- HEADINGS AND TYPE */
 
+
 /* -------------------- LAYOUTS */
+.layout-wide {
+    background-color: greenyellow;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /* -------------------- HEADER */
 
