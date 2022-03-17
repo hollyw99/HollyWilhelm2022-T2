@@ -44,4 +44,7 @@ img{ max-width: 100%;
     .content-item {
         grid-template-columns: 1fr 1fr;
     }
+    .text-module {
+        padding: 3%
+    }
 }
