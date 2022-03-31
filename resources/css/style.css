@@ -1,10 +1,13 @@
 @import url(normalize.css);
 
 /* -------------------- GLOBAL DEFAULTS */
+
 body{
     background-color: white;
    font-family: Arial, Helvetica, sans-serif; 
+
 }
+
 img{ max-width: 100%;
 
 }
@@ -18,7 +21,7 @@ img{ max-width: 100%;
 
 /* -------------------- LAYOUTS */
 .layout-wide {
-    background-color: greenyellow;
+    background-color: white;
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
@@ -32,12 +35,15 @@ img{ max-width: 100%;
 
 /* -------------------- MODULES */
 
+.item {
+    margin-bottom: 50px;
+}
+
+
 /** main 2 col thing */
 .content-item {
 
-    display: grid;
-
-}
+    display: }
 @media screen and (min-width:600px) {
 
 
