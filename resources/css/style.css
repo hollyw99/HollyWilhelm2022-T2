@@ -102,9 +102,10 @@ padding-bottom: 40px;
     
   }
 
-  @media screen and (min-width:600px) {
+ 
       
-  
+/* -------------------- ALERT TO HELP HELP HELP  */
+@media screen and (min-width:600px) {
     .row1 {
         display: grid;
         grid-template-columns: 20% 20% 20% 20% 20%;
@@ -113,11 +114,12 @@ padding-bottom: 40px;
   .column { 
       
     display :grid
-    -ms-inline-grid:contents
+   grid-template-columns: auto;
   }
-    }
+ 
     .first {
         display: grid;
         grid-template-columns: auto;
 
     }
+}
