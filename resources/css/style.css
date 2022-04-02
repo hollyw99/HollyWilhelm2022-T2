@@ -106,11 +106,11 @@ padding-bottom: 40px;
       
   
   .column { 
-      display :table-column
       
-      grid-template-columns:inline 1fr 1fr 1fr 1fr 1fr;
+    display :grid
    
-}
-    .text-module {
-        padding: 3%
+    
+    
+    grid-template-columns: 20% 20% 20% 20% 20%
+     }
     }
