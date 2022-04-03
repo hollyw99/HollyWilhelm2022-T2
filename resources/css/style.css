@@ -116,7 +116,7 @@ padding-bottom: 40px;
   .column { 
       
     display :grid
-   grid-template-columns: auto;
+   grid-template-columns: ;
   }
  
     .first {
