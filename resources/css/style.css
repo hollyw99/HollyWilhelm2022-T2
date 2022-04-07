@@ -21,8 +21,9 @@ img{ max-width: 100%;
 
 h1 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 2em;
+    font-size: 1.5em;
     color: black
+    
 
 }
 
@@ -75,12 +76,14 @@ padding-bottom: 40px;
 
 /* -------------------- NAVIGATION */
 
+
 /* -------------------- FOOTER */
 
 /* -------------------- MODULES */
 
 .item {
     margin-bottom: 50px;
+
 }
 
 
@@ -106,11 +109,15 @@ padding-bottom: 40px;
   }
   .grid-item {
     background-color: white(255, 255, 255, 0.8);
-    border: 1px solid white(252, 250, 250, 0.8);
+    border: 0px solid white(252, 250, 250, 0.8);
     padding: 30px;
+   
     font-size: 1.5em;
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
     
   }
 
@@ -120,24 +127,10 @@ padding-bottom: 40px;
 
 
 @media screen and (min-width:600px) {
-    .row1 {
+    .first-row-images {
         display: grid;
-        grid-template-columns: 20% 20% 20% 20% 20%;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 20px;
+     
     }
-
-  .column { 
-      
-    display :grid
-   grid-template-columns: ;
-  }
- 
-    .first {
-        display: grid;
-        grid-template-columns: auto;
-
-    }
-}
-
-@media screen { min-width: 600px;
-    
 }
