@@ -114,7 +114,7 @@ footer { text-align: center;
   .grid-item {
     background-color: white(255, 255, 255, 0.8);
     border: 0px solid white(252, 250, 250, 0.8);
-    padding: 30px;
+    padding: 40px;
    
     font-size: 1.5em;
     text-align: left;
