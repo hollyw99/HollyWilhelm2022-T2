@@ -80,7 +80,7 @@ padding-bottom: 40px;
 /* -------------------- FOOTER */
 
 footer { text-align: center;
-    
+
 }
 
 /* -------------------- MODULES */
@@ -138,3 +138,15 @@ footer { text-align: center;
      
     }
 }
+
+@media screen and (min-width:600px){
+    .second-row-art {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 20px;
+
+    }
+
+}
+    
+
