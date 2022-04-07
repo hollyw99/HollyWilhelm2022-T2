@@ -79,6 +79,10 @@ padding-bottom: 40px;
 
 /* -------------------- FOOTER */
 
+footer { text-align: center;
+    
+}
+
 /* -------------------- MODULES */
 
 .item {
