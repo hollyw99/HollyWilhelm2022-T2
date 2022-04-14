@@ -76,6 +76,8 @@ padding-bottom: 40px;
 
 /* -------------------- NAVIGATION */
 
+
+
 .main-nav {
     list-style: none;
     padding-left: 0%;
@@ -85,10 +87,24 @@ padding-bottom: 40px;
     padding-top: 10px;
     padding-bottom: 10px;
     display: block;
-    border-bottom: 1px solid black;
+    border-bottom: none;
     text-transform: uppercase;
+    color: red;
     font-weight: bold;
+    text-decoration: none;
 }
+
+.main-nav a:hover {
+ background-color: transparent;
+ color: red;
+ text-decoration: underline;
+
+}
+@media screen and (min-width:800px){
+   
+
+}
+    
 
 /* -------------------- FOOTER */
 
