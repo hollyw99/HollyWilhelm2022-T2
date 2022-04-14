@@ -73,9 +73,14 @@ padding-bottom: 40px;
     padding-top: 30px;
     padding-bottom: 40px;
     margin-left: auto;
-    display:
+    background-color: transparent;
+    border:none
 
-    
+}
+
+.nav-prompt:hover {
+    color: red;
+ text-decoration: underline;
 }
 
 
