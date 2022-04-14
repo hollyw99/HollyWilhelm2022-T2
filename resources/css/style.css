@@ -76,6 +76,19 @@ padding-bottom: 40px;
 
 /* -------------------- NAVIGATION */
 
+.main-nav {
+    list-style: none;
+    padding-left: 0%;
+
+}
+.main-nav a{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+    border-bottom: 1px solid black;
+    text-transform: uppercase;
+    font-weight: bold;
+}
 
 /* -------------------- FOOTER */
 
