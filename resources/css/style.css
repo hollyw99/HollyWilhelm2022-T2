@@ -61,7 +61,11 @@ padding-top: 30px;
 padding-bottom: 40px;
 }
 
-.header-heading {
+
+
+/* -------------------- NAVIGATION */
+
+.nav-prompt {
     color:red;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2em;
@@ -69,20 +73,25 @@ padding-bottom: 40px;
     padding-top: 30px;
     padding-bottom: 40px;
     margin-left: auto;
+    display:
+
+    
 }
-
-
-
-
-/* -------------------- NAVIGATION */
-
 
 
 .main-nav {
     list-style: none;
     padding-left: 0%;
+    display: none;
 
 }
+
+.main-nav.open {
+    display: block;
+
+
+}
+
 .main-nav a{
     padding-top: 10px;
     padding-bottom: 10px;
@@ -100,6 +109,8 @@ padding-bottom: 40px;
  text-decoration: underline;
 
 }
+
+
 @media screen and (min-width:800px){
    
 
@@ -141,22 +152,28 @@ footer { text-align: center;
    
   }
   .grid-item {
-    background-color: white(255, 255, 255, 0.8);
-    border: 0px solid white(252, 250, 250, 0.8);
+    background-color: white;
+    border: 0px white;
     padding: 40px;
    
     font-size: 1.5em;
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    font-size: 1.5em;
     
   }
 
- 
-      
-/* -------------------- ALERT TO HELP HELP HELP     help help HELP  */
+  /*---------- help why sit above*/
+
+  .grid-item2 {
+      text-align: right;
+      font-size: 1.5em;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+
+  }
+
+/* -------------------- MEDIA SCREEN VIEWS*/
 
 
 @media screen and (min-width:600px) {
