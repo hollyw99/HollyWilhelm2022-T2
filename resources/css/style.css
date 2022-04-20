@@ -183,7 +183,12 @@ footer { text-align: center;
   .grid-item2{
       padding-top: 30px;
   }
+.page-titles{ 
+    font-size: 6em;
+    font-weight: bold;
+    color: red;
 
+}
 
 
   /*---------- help why sit above FIXED IT THE padding was 40px*/
