@@ -189,6 +189,13 @@ footer { text-align: center;
     color: red;
 
 }
+.textforcenter { 
+    text-align: center;
+    font-size:2em ;
+    font-weight:bolder;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
 
 
   /*---------- help why sit above FIXED IT THE padding was 40px*/
