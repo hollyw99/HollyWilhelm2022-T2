@@ -1,8 +1,6 @@
 
 /* NAVIGATION */
 
-
-
 function openNav() {
 
     let toggler = document.querySelector('.nav-prompt')
@@ -11,9 +9,10 @@ function openNav() {
 
     toggler.onclick = function(){
     navigation.classList.toggle('open')
-
     }
 
-
 }
-openNav()
+
+/* this is for lightbox gallery */ 
+
+var lightbox = new SimpleLightbox('.gallery a', { /* options */ });
