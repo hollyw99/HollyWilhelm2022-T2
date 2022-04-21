@@ -167,6 +167,11 @@ footer { text-align: center;
     padding: 10px;
    
   }
+
+  .second-row-art {
+      padding-top: 30px;
+  }
+
   .grid-item {
     background-color: white;
     border: 0px white;
