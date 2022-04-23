@@ -60,6 +60,7 @@ line-height: 1.5em;
      
     }
 
+   
 
 
 /* -------------------- HEADER */
@@ -178,10 +179,21 @@ footer { text-align: center;
    
   }
 
+.bio-pic{
+display: grid;
+grid-template-columns: auto auto;
+padding-top: 30px;
+
+
+}
   .second-row-art {
       padding-top: 30px;
   }
 
+  .about-text {
+      padding-left: 30px;
+      text-align: left;
+  }
   .grid-item {
     background-color: white;
     border: 0px white;
@@ -194,6 +206,18 @@ footer { text-align: center;
     font-weight: bold;
     color: red;
     
+  }
+
+  .grid-item1{
+    font-size: 2em;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: red;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    padding-top: 30px;
+
   }
   .grid-item2{
       padding-top: 30px;
