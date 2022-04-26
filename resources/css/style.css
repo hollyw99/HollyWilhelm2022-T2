@@ -190,10 +190,8 @@ padding-top: 30px;
       padding-top: 30px;
   }
 
-  .about-text {
-      padding-left: 30px;
-      text-align: left;
-  }
+
+ 
   .grid-item {
     background-color: white;
     border: 0px white;
@@ -236,6 +234,12 @@ padding-top: 30px;
     font-weight:bolder;
     padding-top: 60px;
     padding-bottom: 60px;
+}
+
+
+.about-text {
+    padding-left: 30px;
+    text-align: left; 
 }
 
 .grid-base {
@@ -297,6 +301,14 @@ padding-top: 30px;
     .nav-prompt {
  
         padding-right: 30px;
+    }
+}
+/**-- HOW TO MAKE THE TEXT SIT BELOW ON PHONE SCREEN--**/
+
+@media screen and (min-width:600px) {
+    .about-text {
+        padding-left: 30px;
+        text-align:left ;
     }
 }
 
