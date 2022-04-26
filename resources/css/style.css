@@ -238,6 +238,14 @@ padding-top: 30px;
     padding-bottom: 60px;
 }
 
+.grid-base {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: white;
+    padding: 10px;
+    padding: bottom 200px;
+    padding-top: 80px;
+}
 
   /*---------- help why sit above FIXED IT THE padding was 40px*/
 
