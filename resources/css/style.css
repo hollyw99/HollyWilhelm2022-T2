@@ -45,9 +45,11 @@ line-height: 1.5em;
     padding-left: 3%;
     padding-right: 3%;
 }
+
 .first-row-images {
     padding-bottom: 40px;
 }
+
 .second-row-art {
     padding-bottom: 40px;
 }
@@ -136,6 +138,9 @@ padding-bottom: 40px;
 
 }
 
+.item{
+    padding-right: 20px;
+}
 
 @media screen and (min-width:800px){
    
@@ -251,7 +256,7 @@ padding-top: 30px;
     padding-top: 80px;
 }
 
-  /*---------- help why sit above FIXED IT THE padding was 40px*/
+ 
 
   .grid-item2 {
       text-align: right;
@@ -341,7 +346,7 @@ padding-top: 30px;
         padding-right: 30px;
     }
 }
-/**-- HOW TO MAKE THE TEXT SIT BELOW ON PHONE SCREEN--**/
+
 
 @media screen and (min-width:600px) {
     .about-text {
