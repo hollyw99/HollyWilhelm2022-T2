@@ -181,7 +181,7 @@ footer { text-align: center;
 
 .bio-pic{
 display: grid;
-grid-template-columns: auto auto;
+grid-template-columns: none;
 padding-top: 30px;
 
 
@@ -347,9 +347,17 @@ padding-top: 30px;
     .about-text {
         padding-left: 30px;
         text-align:left ;
+        text-size-adjust: 0.5em;
+      
     }
 }
 
-
+@media screen and (min-width:600px) {
+.bio-pic {
+    max-width: 100%;
+    grid-template-columns: auto auto;
+}
+    
+}
     
 
